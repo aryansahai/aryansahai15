@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aryan Sahai | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="box box1">
+      <!-- Top Navbar -->
+      <div class="navbar">
+        <div class="nav-left">
+          <img src="images/logo.png" alt="Aryan Sahai Logo" class="nav-logo">
+          <ul class="nav-links">
+            <li><a href="#vanta-bg">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <section id="vanta-bg">
+        <div class="hero-text">
+          <h1 class="type">Aryan Sahai</h1>
+          <span class="type">Web Developer</span>
+        </section>
+
+      <!-- THREE JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+      <!-- VANTA BIRDS -->
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+      <!-- VANTA INIT -->
+      <script>
+        VANTA.BIRDS({
+          el: "#vanta-bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+
+          minHeight: 200.00,
+          minWidth: 200.00,
+
+          backgroundColor: 0x12002F,  // Dark purple background
+          color1: 0x9D00FF,           // Neon purple birds
+          color2: 0x6A0DAD,           // Royal purple
+          colorMode: "lerp",
+
+          birdSize: 1.5,              // Size of birds
+          wingSpan: 25,               // Wings width
+          speedLimit: 5.0,            // Flying speed
+          separation: 50.0,           // Distance between birds
+          alignment: 40.0,
+          cohesion: 30.0,
+
+          quantity: 4.0               // More birds on screen
+        });
+      </script>
+
+      </script>
+    </div>
+    <div class="box box2">
+      <div class="about-container">
+
+        <!-- Left Side (Photo) -->
+        <div class="about-image">
+          <img src="images/about_me1.png" alt="Aryan Sahai">
+        </div>
+
+        <!-- Right Side (About Text) -->
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Hi, I am Aryan Sahai, a passionate Web Developer who loves building
+            modern, dynamic and responsive websites.
+          </p>
+          <p>
+            I work with HTML, CSS, JavaScript, React and creative animations.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="box box3">
+      <h1 class="page-title">My Project</h1>
+
+      <div class="project">
+        <!-- Box 1 -->
+        <div class="area">
+          <img src="images/project1.png" alt="Project 1">
+          <h3>Industrial Project</h3>
+          <p>Developed an industrial project focusing on efficiency, safety, and innovation,
+            delivering optimized processes, cost reduction, and sustainable production solutions successfully.</p>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="area">
+          <img class="image2" src="images/project2.png" alt="Project 2">
+          <h3>College Project</h3>
+          <p>Completed a college project demonstrating practical skills, teamwork, problem solving,
+            research, and innovation through real world application and technical implementation.</p>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="area">
+          <img src="images/project3.png" alt="Project 3">
+          <h3>Social Project</h3>
+          <p>Completed a social project aimed at community development, awareness, and empowerment,
+            promoting social responsibility, engagement, education, and positive impact effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="box box4">
+      <h2 class="skills-title">My Skills</h2>
+
+      <div class="skills-container">
+
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>
+            I use HTML to create the structure of websites, including layouts,
+            forms, and semantic elements for better accessibility and SEO.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>
+            I design attractive and responsive layouts using CSS, Flexbox, Grid,
+            animations, and transitions to make websites visually appealing.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>
+            I use JavaScript to add interactivity such as form validation,
+            animations, dynamic content, and user-friendly behavior.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>React.js</h3>
+          <p>
+            I build fast and scalable user interfaces using React components,
+            hooks, and state management for modern web applications.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Python</h3>
+          <p>
+            I use Python for basic backend logic, scripting, and problem-solving
+            in software development.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Java</h3>
+          <p>
+            I use Java for object-oriented programming and building strong
+            application logic in software engineering.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="box box5">
+      <div class="box5-image">
+        <img src="images/last.avif" alt="Web Designer">
+      </div>
+
+      <div class="box5-text">
+        <p class="styled-para">
+          Designing the web is crafting 
+          digital emotions,where 
+           pixels,performance,and
+          purpose unite to shape 
+          unforgettable user 
+          journeys daily worldwide.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="box box6">
+      <section class="contact-section">
+        <div class="contact-container">
+
+          <h2 class="title6">Reach out!</h2>
+
+          <div class="contact-content">
+
+            <!-- Left side -->
+            <div class="contact-info">
+              <h3>Aryan sahai</h3>
+              <p>www.helloaryan,com</p>
+              <p>123-456-789</p>
+              <p>aryan111@gmail.com</p>
+
+              <p class="resume-link">Find my resume here</p>
+            </div>
+
+            <!-- Right side -->
+            <div class="social-box">
+              <p>CONNECT WITH ME</p>
+              <div class="social-icons">
+
+                <img src="images/insta.jpg" alt="">
+                <img src="images/facebook.jpg" alt="">
+                <img src="images/twitter.png" alt="">
+                <img src="images/linkedin.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
